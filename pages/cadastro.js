@@ -69,7 +69,7 @@ const Cadastro = () => {
         <h1>Crie sua conta</h1>
         <form onSubmit={(e) => register(e)} id="register-form">
           <div className="full-box">
-            <label for="email">E-mail</label>
+            <label htmlfor="email">E-mail</label>
             <input
               value={form.email}
               onChange={(e) => { setForm({ ...form, email: e.target.value }); setErro({ ...erros, erroe: false }) }}
@@ -80,7 +80,7 @@ const Cadastro = () => {
             />
           </div>
           <div className="half-box spacing">
-            <label for="name">Nome completo</label>
+            <label htmlfor="name">Nome completo</label>
             <input
               value={form.nome}
               onChange={(e) => { setForm({ ...form, nome: e.target.value }); setErro({ ...erros, erron: false }) }}
@@ -91,7 +91,7 @@ const Cadastro = () => {
             />
           </div>
           <div className="half-box">
-            <label for="cpf">CPF</label>
+            <label htmlfor="cpf">CPF</label>
             <input
               value={form.cpf}
               onChange={(e) => { setForm({ ...form, cpf: e.target.value, erroc: false }); setErro({ ...erros, erroc: false }) }}
@@ -102,7 +102,7 @@ const Cadastro = () => {
             />
           </div>
           <div className="half-box spacing">
-            <label for="lastname">Senha</label>
+            <label htmlfor="lastname">Senha</label>
             <input
               value={form.senha}
               onChange={(e) => { setForm({ ...form, senha: e.target.value, erros: false }); setErro({ ...erros, errose: false }) }}
@@ -113,7 +113,7 @@ const Cadastro = () => {
             />
           </div>
           <div className="half-box">
-            <label for="passconfirmation">Confirmação de senha</label>
+            <label htmlfor="passconfirmation">Confirmação de senha</label>
             <input
               value={form.confirmarSenha}
               onChange={(e) => { setForm({ ...form, confirmarSenha: e.target.value, erroco: false }); setErro({ ...erros, erroco: false }) }
@@ -132,7 +132,7 @@ const Cadastro = () => {
               name="agreement"
               id="agreement"
             />
-            <label for="agreement" id="agreement-label">
+            <label htmlfor="agreement" id="agreement-label">
               Eu li e aceito os <a href="https://www.youtube.com/watch?v=VMZo3MaYMSQ">termos de uso</a>
             </label>
           </div>
