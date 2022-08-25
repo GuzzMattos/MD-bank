@@ -1,0 +1,146 @@
+#mainbox {
+    margin-top: 30px;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.logomain {
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+.saldo-extrato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 940px;
+
+
+}
+
+.saldo {
+    margin-left: 20px;
+}
+
+.saldovalor {
+    display: flex;
+    align-items: center;
+}
+
+.saldovalor h6 {
+    padding: 2px;
+}
+
+.saldo p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.saldo span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.extrato {
+    display: flex;
+    align-items: center;
+}
+
+.extrato:hover {
+    cursor: pointer;
+}
+
+.extrato a {
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.extrato img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.functions img {
+    width: 70px;
+}
+
+.functions1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.functions2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco {
+    background-color: rgb(54, 54, 54);
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bloco h4 {
+    margin-top: 3px;
+
+}
+
+
+.bloco:hover {
+    cursor: pointer;
+}
+
+.deposito input {
+    color: white;
+    width: 380px;
+}
+
+.sifra {
+    display: flex;
+}
+
+.sifra span {
+    margin-top: 10px;
+}
+
+#transferirval {
+    width: 380px;
+    color: white;
+}
+
+#remetente {
+    width: 400px;
+    color: white;
+
+}
+
+.cartaotexto h1 {
+    text-align: center;
+}
+
+#suport {
+    width: 400px;
+}
