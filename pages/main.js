@@ -2,7 +2,7 @@ import Link from "next/link"
 import Global from "../utils/global"
 import { useEffect } from "react"
 import { useState } from "react"
-export default function main() {
+export default function Main() {
     const [saldo, setSaldo] = useState()
     useEffect(() => {
         let atual = localStorage.getItem('atual')
